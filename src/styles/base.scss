@@ -1,0 +1,26 @@
+
+
+   html {
+    display:table; 
+    width:100%;
+}
+body {display:table-cell; 
+ text-align:center; 
+ vertical-align:middle;
+}
+.word-break p {
+ word-break: normal;
+ word-break: break-all;
+ //word-break: keep-all;
+}
+.word-wrap p {
+ word-wrap: normal;
+ word-wrap: break-word;
+ //word-wrap: inherit;
+}
+span{
+color:blue;
+}
+p{
+background-color: whitesmoke;
+}
